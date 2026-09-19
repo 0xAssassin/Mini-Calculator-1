@@ -1,6 +1,6 @@
-## Mini Calculator
+# Mini Calculator
 
-# Simple Calculator in C
+## Simple Calculator in C
 
 A simple command-line calculator written in **C language**. This project performs basic arithmetic operations using two numbers and an operator entered by the user.
 
