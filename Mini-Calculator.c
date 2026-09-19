@@ -25,10 +25,15 @@ int main()
         result = operand1 * operand2;
         printf("%.2f x %.2f = %.2f\n", operand1, operand2, result);
     }
-    else if (operator == '/' && operand2 != 0)
+    else if (operator == '/')
     {
-        result = operand1 / operand2;
-        printf("%.2f / %.2f = %.2f\n", operand1, operand2, result);
+        if(operand2 != 0){
+            result = operand1 / operand2;
+            printf("%.2f / %.2f = %.2f\n", operand1, operand2, result);
+        }
+        else{
+            printf("Error: cannot divide by zero!\n");
+        }
     }
     else
     {
